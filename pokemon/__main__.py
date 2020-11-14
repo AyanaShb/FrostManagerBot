@@ -49,7 +49,7 @@ Have a look at the following for an idea of some of the things I can help you wi
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
 {}
-And the following:
+And the following My Owner: @uzasyz
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 
