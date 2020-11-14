@@ -16,7 +16,7 @@ wikipedia
 covid
 kbbi
 feedparser
-gtts
+gtts>=2.0.3
 alphabet_detector
 psycopg2-binary
 feedparser
