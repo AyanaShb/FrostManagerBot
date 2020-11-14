@@ -5,6 +5,7 @@ telegraph
 requests
 sqlalchemy
 tswift
+gTTS-token
 coffeehouse
 python-telegram-bot==11.1.0
 numpy
