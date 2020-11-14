@@ -33,7 +33,7 @@ I am an Anime themed group management bot with some fun extras :b
 You can find the list of available commands with /help
 
 ====================
-My owner [Frost](t.me/Frost_id)
+My owner [Frost](t.me/uzasyz)
 """
 
 
