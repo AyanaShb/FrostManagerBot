@@ -22,17 +22,17 @@ def tts(bot: Bot, update: Update, args):
     filename = datetime.now().strftime("%d%m%y-%H%M%S%f")
     reply = " ".join(args)
     update.message.chat.send_action(ChatAction.RECORD_AUDIO)
-    lang="ml"
+    lang="id"
     tts = gTTS(reply, lang)
     tts.save("k.mp3")
-    with open("k.mp3", "rb") as f:
-        linelist = list(f)
-        linecount = len(linelist)
-    if linecount == 1:
-        update.message.chat.send_action(ChatAction.RECORD_AUDIO)
-        lang = "en"
-        tts = gTTS(reply, lang)
-        tts.save("k.mp3")
+    #with open("k.mp3", "rb") as f:
+        #linelist = list(f)
+        #linecount = len(linelist)
+    #if linecount == 1:
+        #update.message.chat.send_action(ChatAction.RECORD_AUDIO)
+        #lang = "en"
+        #tts = gTTS(reply, lang)
+        #tts.save("k.mp3")
     with open("k.mp3", "rb") as speech:
         update.message.reply_voice(speech, quote=False)
 
